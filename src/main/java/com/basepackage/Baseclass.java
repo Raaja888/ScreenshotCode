@@ -35,7 +35,7 @@ public static WebDriver driver;
 		String Date = new SimpleDateFormat("ddMMyyyHHmmss").format(new Date(0));
 	TakesScreenshot takescreenshot = (TakesScreenshot) driver;
 	
-
+// this is just for git chnage confirmation
 	File source= 	takescreenshot.getScreenshotAs(OutputType.FILE);
 	try 
 	{
@@ -46,6 +46,6 @@ public static WebDriver driver;
 		e.getMessage();
 	}
 	}
-
+	// this is just for git chnage confirmation
 
 }
